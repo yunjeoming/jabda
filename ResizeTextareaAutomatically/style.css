@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  position: relative;
+  width: 20rem;
+  height: 100vh;
+  background-color: #efefef;
+  margin: 0 auto;
+}
+
+.chat-list {
+  padding: 1rem;
+}
+
+.chat {
+  word-break: break-all;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.chat:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.textarea-wrapper {
+  background: #ffffff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.1);
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+#textarea {
+  width: 100%;
+  resize: none;
+  border: none;
+  height: auto;
+  overflow: hidden;
+}
+
+#textarea:focus {
+  outline: none;
+}
+
+@media (min-width: 576px) {
+  .wrapper {
+    width: 40rem;
+  }
+}
