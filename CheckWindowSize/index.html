@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Check Window Size</title>
+  </head>
+  <body>
+    <div class="info">
+      <div class="info-row">
+        <div>스크린 사이즈</div>
+        <div class="screen__size"></div>
+      </div>
+      <div class="info-row">
+        <div>브라우저 전체 사이즈</div>
+        <div class="browser__outer-size"></div>
+      </div>
+      <div class="info-row">
+        <div>브라우저 내부 사이즈<br />(스크롤바 포함)</div>
+        <div class="browser__inner-size"></div>
+      </div>
+      <div class="info-row">
+        <div>문서 사이즈<br />(스크롤바 제외)</div>
+        <div class="document__size"></div>
+      </div>
+      <button class="scroll-btn">스크롤바 토글</button>
+      <div class="box"></div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
