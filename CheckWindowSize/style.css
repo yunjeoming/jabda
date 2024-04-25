@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.info {
+  padding: 1rem;
+}
+
+.info-row {
+  display: flex;
+  align-items: center;
+  width: 20rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #a7a7a7;
+}
+
+.info-row > div:first-child {
+  flex-basis: 12rem;
+}
+
+.box {
+  display: none;
+  height: 100vh;
+}
+
+.box.show {
+  display: block;
+}
