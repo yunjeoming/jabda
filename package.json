@@ -4,7 +4,7 @@
   "description": "순수 html, css, js로 만드는 잡다한 기능",
   "homepage": "https://yunjeoming.github.io/jabda",
   "scripts": {
-    "deploy": "gh-pages -d ."
+    "deploy": "gh-pages -d ./pages"
   },
   "dependencies": {
     "gh-pages": "^6.1.1"
