@@ -1,13 +1,18 @@
 # jabda
 
 구현해보고 싶었던 **잡다**한 기능 구현하는 Repo입니다.
+기본기 향상을 위해 순수 HTML, CSS, JavaScript로 만듭니다. 💪
 
-### 구현 목록 👇
+[구경하러 가기 🙌](https://yunjeoming.github.io/jabda/)
 
-- [Change value on drag](https://github.com/yunjeoming/jabda/tree/main/ChangeValueOnDrag)
+### 구현 목록
 
-- [Check window size](https://github.com/yunjeoming/jabda/tree/main/CheckWindowSize)
+- [Change value on drag](https://yunjeoming.github.io/jabda/ChangeValueOnDrag)
 
-- [Make toggle with css](https://github.com/yunjeoming/jabda/tree/main/MakeToggleWithCss)
+- [Check window size](https://yunjeoming.github.io/jabda/CheckWindowSize)
 
-- [Resize textarea automatically](https://github.com/yunjeoming/jabda/tree/main/ResizeTextareaAutomatically)
+- [Make toggle with css](https://yunjeoming.github.io/jabda/MakeToggleWithCss)
+
+- [Resize textarea automatically](https://yunjeoming.github.io/jabda/ResizeTextareaAutomatically)
+
+- [Make toast popup](https://yunjeoming.github.io/jabda/MakeToastPopup)
