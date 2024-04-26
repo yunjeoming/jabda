@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+input,
+button {
+  height: 40px;
+  border: 1px solid #a4a4a4;
+  border-radius: 4px;
+}
+
+input {
+  padding: 4px;
+  padding-left: 8px;
+  width: 180px;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.wrapper {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 8px;
+
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.toast-list {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  padding: 20px;
+}
+
+.toast {
+  width: 300px;
+  padding: 8px;
+  border-radius: 8px;
+
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+  background-color: #545454;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  transform: translateX(-200%);
+}
+
+.fade-in {
+  transform: translateX(0);
+  transition: transform 150ms ease-in;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 300ms ease-in;
+}
