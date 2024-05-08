@@ -7,12 +7,12 @@
 
 ### 구현 목록
 
-- [Change value on drag](https://yunjeoming.github.io/jabda/ChangeValueOnDrag)
+- [Change value on drag](https://yunjeoming.github.io/jabda/change-value-on-drag)
 
-- [Check window size](https://yunjeoming.github.io/jabda/CheckWindowSize)
+- [Check window size](https://yunjeoming.github.io/jabda/check-window-size)
 
-- [Make toggle with css](https://yunjeoming.github.io/jabda/MakeToggleWithCss)
+- [Make toast popup](https://yunjeoming.github.io/jabda/make-toast-popup)
 
-- [Resize textarea automatically](https://yunjeoming.github.io/jabda/ResizeTextareaAutomatically)
+- [Make toggle with css](https://yunjeoming.github.io/jabda/make-toggle-with-css)
 
-- [Make toast popup](https://yunjeoming.github.io/jabda/MakeToastPopup)
+- [Resize textarea automatically](https://yunjeoming.github.io/jabda/resize-textarea-automatically)
